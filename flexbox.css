@@ -1,0 +1,28 @@
+
+.main-header,
+.main-nav,
+.first,
+.first-right,
+.second,
+.third,
+.over-fourth,
+.over-fifth {
+    display: flex;
+}
+
+
+.main-header {
+    align-items: center;
+}
+
+.first {
+    justify-content: flex-end;
+}
+
+.news-pg,
+.cont-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

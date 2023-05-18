@@ -1,0 +1,550 @@
+/* UNIVERSAL SELECTOR */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* TYPE SELECTORS */
+body {
+    margin: 0px;
+}
+
+
+
+/* CLASS SELECTOR */
+/* MAIN-HEADER CLASS SELECTOR */
+.main-header {
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    width: 100vw;
+}
+
+.federal {
+    font-size: 17px;
+    flex-grow: 1;
+    padding-left: 30px;
+}
+
+.main-nav {
+    list-style: none;
+}
+
+li a {
+    padding: 8px;
+    color: rgb(110, 107, 107);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+}
+
+.login {
+    margin-right: 30px;
+    padding: 20px 80px;
+    background-color: rgb(32, 110, 32);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.login:hover {
+    border: 2px solid rgb(92, 92, 238);
+}
+
+/* .FIRST CLASS SELECTOR */
+.first {
+    background-color: rgb(235, 242, 245);
+}
+
+.note {
+    text-decoration: underline;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.logo {
+    width: 171px;
+    height: 168px;
+    padding-top: 130px;
+}
+
+.off-lady {
+    padding-top: 90px;
+    width: 670px;
+    padding-left: 110px;
+}
+
+.reg {
+    line-height: 50px;
+    margin-top: 0px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.cms {
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.read a {
+    color: rgb(6, 65, 6);
+    text-decoration: none;
+    font-weight: 900;
+    font-size: large;
+}
+
+.read a:hover {
+    text-decoration: underline;
+}
+
+/* COVID CLASS SELECTOR */
+.covid {
+    background-color: black;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.covid a {
+    text-decoration: none;
+    color: rgb(9, 158, 9);
+}
+
+/* SECOND CLASS SELECTOR */
+.second {
+    margin-bottom: 200px;
+}
+
+.buhari,
+.sadiya {
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+.buhari {
+    padding-left: 120px;
+    padding-right: 20px;
+    padding-top: 100px;
+}
+
+.sadiya {
+    padding-top: 290px;
+    padding-right: 74px;
+}
+
+.about {
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+.m-about {
+    line-height: 25px;
+    font-weight: 200;
+    font-size: 20px;
+    color: rgb(119, 114, 114);
+    margin-bottom: 0px;
+}
+
+.fed {
+    color: rgb(5, 63, 5);
+    text-decoration: none;
+}
+
+.by,
+.position {
+    color: rgb(119, 114, 114);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.position {
+    margin-top: 5px;
+}
+
+.by {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+/* THIRD CLASS SELECTOR */
+.bout a {
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+
+.third-left {
+    padding-left: 20px;
+    line-height: 25px;
+    /* margin-right: 300px; */
+}
+
+.response {
+    line-height: 30px;
+    padding-bottom: 40px;
+}
+
+.bout-nsip {
+    color: rgb(119, 114, 114);
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.wf,
+.mf,
+.mt,
+.mw {
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.wf {
+    height: 243px;
+    margin-top: 20px;
+}
+.mf {
+    height: 183px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.mt {
+    height: 167px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.mw {
+    height: 187px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+/* FOURTH CLASS SELECTOR */
+.fourth {
+    background-color: rgb(237, 245, 250);
+    height: fit-content;
+}
+
+.prog {
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.more-prog {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.more {
+    margin-right: 20px;
+    padding: 20px 80px;
+    background-color: rgb(210, 236, 210);
+    color: green;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.more:hover {
+    border: 2px solid rgb(92, 92, 238);
+}
+
+.apply {
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 20px 80px;
+    background-color: rgb(32, 110, 32);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.apply:hover {
+    border: 2px solid rgb(92, 92, 238);
+}
+
+.cash {
+    color: orange;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ct {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+.fourth-left {
+    margin: 0px 20px 90px 30px;
+    padding: 0px;
+    max-width: 620px;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 15px;
+}
+
+.fourth-right {
+    margin: 0px 30px 90px 20px;
+    padding: 0px 0px 40px;
+    max-width: 620px;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 15px;
+}
+
+.mony {
+    width: 620px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.fruit-s {
+        width: 620px;
+        height: 200px;
+        border-radius: 15px 15px 0px 0px;
+}
+
+.geep {
+    color: orange;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.geep-s {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+
+
+/* FIFTH CLASS SELECTOR */
+.news,
+.keep {
+    text-align: center;
+}
+
+.news {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.keep {
+    margin-bottom: 80px;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
+.fifth-left {
+    margin: 0px 50px 90px 50px;
+    padding: 0px 0px 0px 0px;
+    background: #fff;
+    border-bottom: 2px;
+    border-radius: 15px;
+    box-shadow: #ccc 0px 2px 2px 2px;
+}
+
+.eng {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.np,
+.june,
+.b-c {
+    padding-left: 20px;
+}
+
+.b-c {
+    padding-bottom: 20px;
+}
+
+.under {
+    text-decoration: underline orange 3px;
+    padding-bottom: 4px;
+}
+
+.june,
+.b-c {
+    color: rgb(119, 114, 114);
+}
+
+.enq {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.fifth-center {
+        margin: 0px 50px 90px 30px;
+        padding: 0px 0px 0px 0px;
+        background: #fff;
+        border-bottom: 2px;
+        border-radius: 15px;
+        box-shadow: #ccc 0px 2px 2px 2px;
+}
+
+.ol {
+        width: 350px;
+        height: 200px;
+        border-radius: 15px 15px 0px 0px;
+}
+
+.fifth-right {
+    margin: 0px 20px 90px 30px;
+    padding: 0px 0px 0px 0px;
+    background: #fff;
+    border-bottom: 2px;
+    border-radius: 15px;
+    box-shadow: #ccc 0px 2px 2px 2px;
+}
+
+.of {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.rec {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.news-p {
+    padding: 20px 50px;
+    background-color: rgb(32, 110, 32);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.news-p:hover {
+    border: 2px solid rgb(92, 92, 238);
+}
+
+/* SIXTH CLASS SELECTOR */
+.sixth {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+}
+
+.know {
+    color: rgb(177, 170, 170);
+    font-size: 19px;
+}
+
+.foll {
+    font-size: 30px;
+}
+
+.fb,
+.tweet,
+.insta {
+    width: 30px;
+    height: 30px;
+}
+
+.fb,
+.tweet {
+    padding-right: 20px;
+}
+
+/* SEVENTH CLASS SELECTOR */
+.seventh{
+    height: fit-content;
+    text-align: center;
+}
+
+.cont {
+    padding: 20px 50px;
+    background-color: rgb(32, 110, 32);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.cont:hover {
+    border: 2px solid rgb(92, 92, 238);
+}
+
+.quest {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.ecr {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+/* EIGHT CLASS SELECTOR */
+.eight {
+    background-color: rgb(28, 59, 28);
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.aanc,
+.cpryt {
+    font-size: 20px;
+}
+
+.aanc a {
+    padding-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cpryt {
+    padding-top: 10px;
+}
+
+.active{
+    border-bottom: green solid;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
